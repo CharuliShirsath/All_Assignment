@@ -1,0 +1,133 @@
+body{
+    background-color: steelblue;
+}
+#main{
+    height: 800px;
+    width: 1000px;
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    
+}
+#top{
+    height: 150px;
+    width: 850px;
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: 200px 625px;
+    background-color: rgb(66, 104, 104);
+}
+
+#d1 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    margin-top: 25px;
+}
+
+img{
+    height: 90px;
+    justify-content: space-between;
+    display: grid;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+#center{
+    height: 350px;
+    width: 850px;
+    border:solid;
+    border-radius: 40px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 430px 0px;
+}
+#down{
+    height: 150px;
+    width: 850px;
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 40px;
+    display:flex;
+    justify-content: space-between; 
+    background-color: beige;
+}
+#s{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 100px 90px;
+    border-radius: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#first{
+    color: aliceblue;
+    width: 400px;
+    height: 300px;
+    border: solid;
+    border-radius: 20%;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: lightgreen;
+}
+#second{
+    color: aliceblue;
+    font-weight: 10%;
+    width: 400px;
+    height: 300px;
+    border: solid;
+    border-radius: 20%;
+    margin-top: 15px;
+    
+    background-color: rgb(174, 9, 111);
+}
+.f1{
+    display: grid;
+    grid-template-columns: 199px 90px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.f2{
+    display: grid;
+    grid-template-columns: 203px 50px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+#q1{
+    color: aliceblue;
+    background-color: rgb(4, 31, 91);
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+#q2{
+    color: aliceblue;
+    background-color: rgb(106, 16, 103);
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+
+}
+#q3{
+    color: aliceblue;
+    background-color: rgb(201, 170, 47);
+    height: 70px;
+    width: 100px;
+    border-radius: 20px;
+}
+#q4{
+    color: aliceblue;
+    background-color: rgb(13, 102, 143);
+    height: 70px;
+    width: 100px;
+    border-radius: 20px;
+}
